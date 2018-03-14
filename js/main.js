@@ -19,14 +19,3 @@ function changeImg(){
 }
 
 window.onload = changeImg;
-
-function EVENorODD() {
-	var num=parseInt(prompt("Enter Number"));
-	if (num%2 == 0) {
-		console.log(num);
-		alert("Even Number!")
-	}
-	else {
-		alert("Odd Number!")
-	}
-}
